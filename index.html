@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prashant Joshi</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo2.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar3.png" alt="Prashant Joshi" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Prashant Joshi">Prashant Joshi</h1>
+          <p class="title">Software Engineer</p>
+        </div>
+
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:prashantj724@gmail.com" class="contact-link">prashantj724@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917982759614" class="contact-link">+917982759614</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>New Delhi, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/prashantjoshi1999/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/thelaughinglama" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a Software Engineer and Technology Manager with over 4 years of experience in crafting scalable,
+            high-performance backend systems. I thrive on building solutions that improve efficiency, reliability, and
+            user experience.
+          </p>
+
+          <p>
+            My expertise includes developing robust backend services using Node.js, Express.js, MySQL, MongoDB, and
+            Redis. I have hands-on experience with cloud services like AWS (ECS, S3, Lambda, CloudFront) and DevOps
+            practices such as Docker and CI/CD pipelines.
+          </p>
+
+          <p>
+            As a Tech Leader, I’ve led backend teams, driven critical projects, and designed microservices architectures
+            to ensure scalability, security, and maintainability. I’m passionate about solving complex challenges and
+            turning them into simple, scalable solutions that deliver real impact.
+          </p>
+        </section>
+
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+
+          <ul class="service-list">
+
+            <!-- API Development -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-api1.svg" alt="API icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">API Development & Integration</h4>
+                <p class="service-item-text">
+                  Building secure and scalable RESTful APIs and integrating third-party services to enhance
+                  functionality and performance.
+                </p>
+              </div>
+            </li>
+
+            <!-- System Design & Architecture -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-sd.svg" alt="Architecture icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">System Design & Architecture</h4>
+                <p class="service-item-text">
+                  Designing scalable, high-performance backend systems using microservices, message queues, caching
+                  mechanisms, and cloud infrastructure.
+                </p>
+              </div>
+            </li>
+
+            <!-- Cloud Infrastructure -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-cloud.svg" alt="Cloud icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Infrastructure & DevOps</h4>
+                <p class="service-item-text">
+                  Managing cloud infrastructure on AWS, including ECS, S3, CloudFront, and Lambda. Implementing CI/CD
+                  pipelines for efficient deployments.
+                </p>
+              </div>
+            </li>
+
+            <!-- Database Management -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-database.svg" alt="Database icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Management & Optimization</h4>
+                <p class="service-item-text">
+                  Expertise in MySQL and MongoDB for designing efficient database schemas, optimizing queries, and
+                  ensuring data integrity and performance.
+                </p>
+              </div>
+            </li>
+
+            <!-- Job Queues & Asynchronous Processing -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-queue.svg" alt="Queue icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Job Queues & Asynchronous Processing</h4>
+                <p class="service-item-text">
+                  Implementing asynchronous job queues using BullMQ and Redis to handle background tasks, improving
+                  system performance and reliability.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+          <div class="download-resume">
+            <a href="./assets/resume/PrashantJoshi_Resume.pdf" download class="button">
+              <ion-icon name="download-outline"></ion-icon>
+              Download My Resume
+            </a>
+          </div>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor of Technology (B.Tech) in Information Technology, GGSIPU</h4>
+              <span>2017 — 2021</span>
+              <p class="timeline-text">
+                Gained foundational knowledge in software development, data structures, and algorithms. Completed
+                multiple projects in web and backend development using Node.js and MySQL.
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <!-- Flexiele Group -->
+            <li class="company-group">
+              <h3 class="company-name">Flexiele</h3>
+              <ol class="timeline-list">
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Manager Technology (Tech Lead)</h4>
+                  <span>October 2024 — Present</span>
+                  <p class="timeline-text">
+                    Leading a team of backend developers, implementing scalable solutions using Node.js, MySQL, Redis,
+                    and
+                    AWS. Designed a multi-tenant HRMS platform with custom landing pages and caching mechanisms to
+                    improve
+                    performance and scalability.
+                  </p>
+                </li>
+
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Senior Associate Tech</h4>
+                  <span>October 2023 — September 2024</span>
+                  <p class="timeline-text">
+                    Developed and maintained backend services for a cloud-based HRMS system. Implemented Redis caching,
+                    CloudFront distribution for S3, and integrated third-party APIs. Took ownership of critical
+                    projects,
+                    including document uploads and payroll integrations.
+                  </p>
+                </li>
+
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Associate Tech</h4>
+                  <span>March 2021 — September 2023</span>
+                  <p class="timeline-text">
+                    Focused on building RESTful APIs and backend logic using Node.js and Express. Worked on integrating
+                    databases like MySQL and MongoDB, and explored cloud solutions like AWS Fargate, S3, and ECS.
+                  </p>
+                </li>
+              </ol>
+            </li>
+
+            <!-- BharatNXT Group -->
+            <li class="company-group">
+              <h3 class="company-name">BharatNXT</h3>
+              <ol class="timeline-list">
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Backend Developer Intern</h4>
+                  <span>June 2019 — September 2019</span>
+                  <p class="timeline-text">
+                    Created and configured multiple cron jobs for automated data processing. Developed REST APIs for
+                    user
+                    leaderboard calculations, contributing to the backend performance of the platform.
+                  </p>
+                </li>
+              </ol>
+            </li>
+          </ol>
+
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <!-- Node.js & Backend Development -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js & Frameworks(Express, Fastify, etc)</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <!-- System Design & Architecture -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">System Design & Architecture</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <!-- API Development -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">API Development & Integration (REST & GraphQL)</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <!-- Redis & Caching -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Redis & Caching Mechanisms</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <!-- AWS & Cloud Infrastructure -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">AWS (ECS, S3, CloudFront, Lambda, RDS)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <!-- Database Management -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Database Management (MySQL, MongoDB)</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <!-- BullMQ & Job Queues -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">BullMQ & Async Job Queues</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+            <!-- Security Best Practices -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Security Best Practices (OAuth2, JWT, CSRF, XSS)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <!-- Docker & CI/CD -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Docker & CI/CD (GitHub Actions, Jenkins)</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+            <!-- Microservices Architecture -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Microservices Architecture</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <!-- Logging & Monitoring -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Logging & Monitoring (Winston, CloudWatch, Grafana)</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <!-- Troubleshooting & Debugging -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Troubleshooting & Debugging</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <!-- JavaScript (ES6+) -->
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript (ES6+)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="40">40%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <span class="h3"> Section Under Development</span>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <span class="h3"> Section Under Development</span>
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.32835516133!2d77.20898509999999!3d28.5273522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1736674201273!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" id="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" id="contact-button" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Email Js-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('zADtb8OdQqIUXPONs')
+  </script>
+
+</body>
+
+</html>
